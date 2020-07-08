@@ -4,9 +4,9 @@ var cloudinary = require('cloudinary').v2;
 
 const uploadOptions = {};
 cloudinary.config({ 
-    cloud_name: 'gordon', 
-    api_key: '235266229551868', 
-    api_secret: 'SSnb-WDrVbpw0EnIGs-ejU07bNc' 
+    cloud_name: process.env.CLOUDINARY_NAME, 
+    api_key: process.env.CLOUDINARY_KEY, 
+    api_secret: process.env.CLOUDINARY_SECRET 
   });
 
 
