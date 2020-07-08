@@ -1,7 +1,7 @@
 module.exports = {
 
-  email: "youremail@gmail.com",
-  password: "xxxxxxxxxx"
+  email: process.env.EMAIL,
+  password: process.env.PASSWORD
 
 
 }
